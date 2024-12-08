@@ -1,0 +1,10 @@
+div.minor-banner {
+    height:400px;
+    margin-bottom:30px;
+}
+
+div.minor-banner img {
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 10px;
+}

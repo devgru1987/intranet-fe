@@ -1,0 +1,9 @@
+div#banner {
+    height:400px;
+    margin-bottom:20px;
+}
+
+div#banner img {
+    border-radius: 40px;
+    object-position:top
+}

@@ -1,0 +1,68 @@
+section#wrapper {
+    height:100vh;
+    overflow: hidden;
+}
+
+div#container {
+    height:100%;
+}
+
+nav#main-nav {
+    width:15%;
+    max-width:400px;
+    min-width:200px;
+    align-items: stretch;
+}
+
+main#outlet {
+   flex-basis:100%;
+   overflow-y: scroll;
+   margin-left:5px;
+}
+
+#main-nav ul {
+    padding:0 4px;
+}
+
+div#nav-logo {
+    width:80%;
+    margin: 10px auto 30px auto;
+}
+
+ul#nav-list li {
+    border-radius:2px;
+}
+
+.nav-item {
+    display: block;
+    padding: 2px 30px
+}
+
+.nav-item:hover {
+    background-color: rgba(157,120,242,255);
+    border-radius:5px;
+}
+
+li#newsletter-block {
+    margin-left:30px;
+    border-top: 8px solid var(--title);
+    margin:30px 5px 0 30px;
+}
+
+div#newsletter-download {
+    align-items: center;
+    border-radius:10px;
+    background-color: var(--title);
+    padding:20px 10px;
+    margin-top: 20px;
+    cursor:pointer;
+}
+
+p#spacer {
+    margin-top:10px;
+}
+
+div#newsletter-download p, 
+.nav-item:hover {
+    color:#fff;
+}

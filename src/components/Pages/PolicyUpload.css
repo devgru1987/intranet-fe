@@ -1,0 +1,82 @@
+div#policy-intro,
+form#upload-form  {
+    border-bottom: 1px solid grey;
+    padding:20px 0;
+    margin: 0 20px;
+}
+
+div#policy-intro h3 {
+    margin:10px 0 20px 0;
+}
+
+div#policy-intro button,
+section#form-content button#upload-button {
+    padding:10px;
+    margin: 20px 0;
+}
+
+select#selection-option { margin: 20px 0; }
+
+section#input#input-file{ margin: 20px 0; }
+
+div#policy-intro button,
+section#form-content button {
+    border:none;
+    color:white;
+    cursor: pointer;
+    background-color: blue;
+}
+
+table#policy-table {
+    width:90%;
+    text-align: left;
+}
+
+th#manage {
+    width:100px;
+}
+
+section#tabular {
+    display: flex;
+    justify-content: center;
+}
+
+div#file-type {
+    display:flex;
+    margin: 10px;
+    padding:10px;
+    width: 150px;
+    border-radius: 5px;
+    flex-direction:column;
+    background-color: antiquewhite;
+    box-shadow: 0 0 8px 2px rgba(123,123,123, 0.5);
+}
+
+div#document {
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+div#file-type p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+div#file-type button {
+    border:none;
+    color:#fff;
+    cursor:pointer;
+    padding:5px 10px;
+    border-radius:5px;
+    background-color: rgb(11, 90, 11);
+}
+
+div#file-type button:hover {
+    background-color: rgb(74, 113, 14);
+}
+
+ul#policy-collection {
+    display:flex;
+    flex-wrap: wrap;
+}

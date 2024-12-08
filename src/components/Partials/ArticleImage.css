@@ -1,0 +1,7 @@
+div.article-image {
+    height: 200px;
+}
+
+div.article-image img {
+    border-radius: 10px;
+}

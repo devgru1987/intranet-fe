@@ -1,0 +1,54 @@
+#delete {
+    color:red;
+}
+
+div.policy-control {
+    display: flex;
+    padding: 5px;
+    margin:10px;
+    border-radius: 5px;
+    justify-content: space-around;
+    background-color: var(--title);
+}
+
+div.policy-control > p {
+    display: flex;
+    align-items:center;
+    color:white;
+}
+
+p#doc-title {
+    width:50%;
+}
+
+p#department{
+    width:30%;
+}
+
+div#delete {
+    width:10%;
+    text-align:center;
+    border-radius:5px;
+    padding:5px;
+    background-color: var(--title);
+    cursor:pointer;
+}
+
+
+/* The admin image display */
+div#thumbnail {
+    position: relative;
+}
+
+div#thumbnail img {
+    width:100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+div#img-delete {
+    position:absolute;
+    bottom:0; 
+    left:10px;
+    cursor: pointer;
+}

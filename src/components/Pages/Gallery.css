@@ -1,0 +1,123 @@
+div#gallery-into,
+form#upload-form  {
+    border-bottom:1px solid grey;
+    padding:20px 0;
+    margin:10px
+}
+
+div#gallery-into h3,
+form#upload-form h3 {
+ margin:0 0 10px 0
+}
+
+div#gallery-into button,
+div#image-upload-section button {
+    padding:10px 10px;
+    background-color: blue;
+    border:none;
+    border-radius:2px;
+    color:white;
+    cursor: pointer;
+}
+
+div#image-upload-section button {
+    margin-top: 20px;
+    padding:10px
+}
+
+div#image-upload-section input[type="file"] {
+    margin-top:20px
+}
+
+div#gallery-into p {
+    margin:0 0 10px 0
+}
+
+div#admin-pictures {
+    display: grid;
+    grid-template: repeat(3, 200px)/ repeat(auto-fit, minmax(300px, 1fr));
+    gap: 4px;
+}
+
+section#gallery {
+    margin:10px;
+    display:grid;
+    grid-template: repeat(auto-fit, 200px)/ repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+section#gallery > * {
+    flex: 1 1 250px;
+}
+
+div#gallery-frame{
+
+   overflow: hidden;
+   height:200px; 
+   cursor: pointer;
+   box-shadow: none;
+   transition: transform 1.2s ease, box-shadow 0.3s ease;
+} 
+
+div#gallery-frame:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+ }
+
+div#gallery-frame img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+/* full screen image display */
+div#full-screen-display {
+    position:absolute;
+    width:100vw;
+    height:100vh;
+    top:0;
+    left:0;
+    background-color:purple;
+    overflow: hidden;
+}
+
+div#picture-container,
+div#inner-picture-container,
+div#picture-reel {
+   width:100%;
+   height:100%;
+}
+
+img#contain {
+    object-fit: contain;
+}
+
+#close-btn {
+    position:absolute;
+    top:20px;
+    right:20px;
+    z-index:4;
+    height:2em
+}
+
+div#picture-controls{
+    position:absolute;
+    bottom:10px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+div#picture-controls:hover {
+    opacity:1;
+}
+
+div#picture-controls button {
+ padding: 5px;
+ margin-right:20px;
+}
+
+
+
