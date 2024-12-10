@@ -20,7 +20,6 @@ import OfficeOfTheCEO from './components/Pages/OfficeOfTheCEO';
 import Sales from './components/Pages/Sales';
 import Operations from './components/Pages/Operations';
 import Policy from './components/Pages/Policy';
-import Login from './components/Pages/Login';
 import PolicyUpload from './components/Pages/PolicyUpload';
 import GalleryUpload from './components/Pages/GalleryUpload';
 import Events from './components/Pages/Events';
@@ -82,10 +81,6 @@ const router = createBrowserRouter([
       {
         path: "/policies",
         element: <Policy />
-      },
-      {
-        path: "/login",
-        element: <Login />
       },
       {
         path: "/policyupload",

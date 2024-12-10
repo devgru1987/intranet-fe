@@ -72,10 +72,6 @@ const AddEvents = () => {
 
     return(
         <div className="component">
-            <div id="page-header">
-                <Header />
-            </div>
-
             <section id="calender-event-form">
                 <div id="calender-content">
                     {showCalender && 

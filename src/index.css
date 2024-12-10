@@ -79,3 +79,65 @@ div.profile {
 }
 
 
+/* login page*/
+div.login-page {
+    position: absolute;
+    height:100vh;
+    width:100vw;
+    left: 0;
+    top:0;
+    background-color: #fff;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.login-form {
+    height: 300px;
+    width:300px;
+    border-radius:5px;
+    padding:10px;
+    z-index:10;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.login-form input[type=text],
+div.login-form input[type=password] {
+    height: 40px;
+    width:100%;
+    margin-bottom:20px;
+    padding:10px;
+    border-radius:5px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+div.login-form input[type=button]  {
+    height: 30px;
+    width: 100px;
+}
+
+#login-form-close {
+    position: absolute;
+    top: 80px;
+    right:80px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+#login-form-close:hover {
+    transform: scale(1.5);
+}
+
+
+section#calender-event-form,
+div#calender-event {
+    margin-top: 100px;
+}
+

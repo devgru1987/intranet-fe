@@ -43,9 +43,6 @@ const Events = () => {
 
     return (
         <div className="component">
-            <div id="page-header">
-                <Header />
-            </div>
             <div id="calender-event">
                 <div id="user-calender">
                     <Calendar

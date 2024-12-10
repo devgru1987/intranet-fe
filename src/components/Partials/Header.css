@@ -6,11 +6,13 @@ header {
     height:100px;
 }
 
-div#login-link, div#search {
+div#search {
     outline:1px solid grey;
 }
 
-div#login-link {
+div#login-link  button{
+    outline:none;
+    border:1px solid grey;
     border-radius: 5px;
     margin: 0 30px;
     padding: 5px 30px;
